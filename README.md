@@ -16,3 +16,5 @@ Current startup routine:
 Current Endpoints:
 
 * `/hello` - Used for proof of life. Outputs "Hello world!"
+* `/auth/login` - Login page. User must register before logging in.
+* `/auth/register` - Registration page. Creates new user account. Duplicate usernames are not permitted. No password restrictions.
